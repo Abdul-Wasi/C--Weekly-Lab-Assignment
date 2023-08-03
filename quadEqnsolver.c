@@ -24,7 +24,7 @@ int main(){
 	else{
 	    float realPart = -b/(2.0*a);
 	    float imaginaryPart = sqrt(-D)/(2.0*a);
-	    printf("The roots of the equation are:\n\n%f+%f , %f-%f",realPart,imaginaryPart,realPart, imaginaryPart);
+	    printf("The roots of the equation are:\n\n%f+%fi , %f-%fi",realPart,imaginaryPart,realPart, imaginaryPart);
 	}
 	return 0;
 }
