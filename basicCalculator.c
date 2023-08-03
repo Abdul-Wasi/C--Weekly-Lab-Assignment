@@ -21,10 +21,10 @@ int main(){
 		printf("The difference is: %f", diff);
 	}
 	else if (operation == 3){
-		printf("The difference is: %f", mult);
+		printf("The product is: %f", mult);
 	}
 	else if (operation == 4){
-		printf("The difference is: %f", divi);
+		printf("The quotient is: %f", divi);
 	}
 	
 	return 0;
